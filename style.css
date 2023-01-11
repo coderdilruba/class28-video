@@ -1,0 +1,282 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+/* Header style */
+.header span{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.header ul{
+    margin-left: 70px;
+}
+.header ul li{
+    padding-left: 20px;
+}
+.header .h .v .o:hover{
+    color: #657be0;
+    background-color: #fff;
+}
+/* slider section */
+
+.slider-section{
+    background: url(./img//mbr-10.jpg) no-repeat center center;
+   padding: 140px 0;
+   position: relative;
+   z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-caption h4{
+padding-bottom: 50px;
+}
+.slider-caption h2{
+padding-bottom: 50px;
+font-size: 45px;
+}
+.fi input{
+    width: 350px;
+    padding: 15px;
+}
+.fb button{
+    width: 250px;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.slider-section .slider-button{
+    color: #fff;
+    font-size: 20px;
+    background-color: #73b251;
+}
+.slider-section .slider-button:hover{
+    outline: 2px solid #657be0;
+    color: #657be0;
+    background-color: #fff;
+    box-shadow:0 0 5px 2px #657be0;
+}
+.form{
+    margin-bottom:130px ;
+}
+.number-counter-item .h2{
+    font-size: 60px;
+}
+.about-section{
+    background-color: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+     font-size: 25px;
+     line-height: 2.7rem;
+}
+/* feature section */
+.df{
+    font-size: 25px;
+    font-weight: 300;
+}
+.df1{
+    font-size: 47px;
+    font-weight: 400;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.095);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text-sec{
+    width: 60%;
+    padding: 25px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width:inherit;
+    position: relative;
+    left: -80px;
+}
+.right-text-sec p{
+    font-weight: 300;
+    text-align: left;
+}
+.right-text-sec h4{
+    text-align: left;
+}
+/* portfolio hover css */
+
+.portfolio-item a{
+     position: relative;
+     display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* pricing section */
+.bg-all{
+    background-color: #f7f9ff;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.095);
+    border-radius: 5px;
+}
+
+.pricing-item h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.pricing-item ul li span{
+    color: #657be0;
+    font-size: 40px;
+    font-weight: 800;
+    width: 40px;
+    display: inline-block;
+}
+
+
+.pricing-item-button a{
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 23px;
+    font-weight: 500;
+    box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.095);
+}
+.pricing-item:hover a{
+    color: #fff;
+    background-color:#657be0;
+}
+.pricing-item-button .pb:hover{
+    color: #fff;
+    background-color: black;
+}
+/* testimonial section */
+
+.author-info img{
+    width: 85px;
+    margin-right: 18px;
+}
+.author-info{
+    width: 220px;
+    margin: auto;
+}
+.author-data{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.testimonial-item span i{
+        font-size: 110px;
+        color: rgba(128, 128, 128, 0.155);
+}
+/* about section */
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+.cb{
+    font-weight: 600;
+}
+.card{
+    box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.095)
+}
+.card-body .cb:hover{
+    color: white;
+    background-color: black;
+}
+/* contact section */
+.card-body textarea{
+    width: 612px;
+}
+.card-body button{
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: 600px;
+    background-color: #657be0;}
+    .card-body .csb:hover{
+    color: #657be0;
+    outline:2px solid #657be0;
+    box-shadow: 0 0 15px 0;
+}
+/* service section */
+.service-section .service-btn1{
+    outline: 2px solid #73b251;
+    color:#73b251;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+.service-section .service-btn1:hover{
+    color: #fff;
+    background-color:#73b251;
+    box-shadow: 0 0 10px 1px #73b251;
+}
+.service-section .service-btn2{
+    font-size: 27px;
+    color:#fff;
+    font-weight: 500;
+    background-color:#73b251;
+    box-shadow: 0 0 10px 1px #73b251;
+    padding: 10px;
+}
+.service-section .service-btn2:hover{
+    background-color: black;
+    color: #fff;
+}
+/* footer section */
+.footer span a{
+    text-decoration: none;
+    color:#465052;
+    font-weight: 400;
+}

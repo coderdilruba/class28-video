@@ -1,0 +1,74 @@
+@media (min-width:992px){
+  .header img{
+        margin-top: 0px;
+    }
+}
+@media (min-width:768px){
+    .about-section img {
+        margin-top: 131px;
+    }
+.left-img-sec img{
+    margin-top: 0;
+}
+.portfolio-section{
+    text-align: center;
+}
+}
+@media (min-width:575px){
+    .about-section {
+        text-align: center;
+        padding: 0 28px;
+    }
+    .pricing-item {
+        margin-left: 22px;
+        margin-bottom: 15px;
+    }
+    .about-item {
+        margin-left: 54px;
+    }
+    .card-body textarea {
+        max-width: 100%;
+    }
+   
+}
+@media (min-width:380px){
+    .about-text-left {
+        padding-left: 51px;
+    }
+
+    .pricing-item {
+        margin-left: 21px;
+        margin-bottom: 20px;
+    }
+    .card-body textarea {
+        max-width: 100%;
+    }
+    .card {
+        margin-left: 45px;
+    }
+    .form-section .card{
+        margin-left: 0;
+    }
+    .lead {
+        padding-left: 33px;
+    }
+    .about-section h1{
+        padding-left: 30px;
+    }
+    .df1 {
+        font-size: 26px;
+    }
+    .card-body button{
+        padding: 5px;
+    }
+    .service-section .service-btn2 {
+        padding: 4px;
+    }
+    .service-section .service-btn1 {
+        padding: 4px;
+    }
+    .footer .h5{
+        font-size: 14px;
+        text-align: center;
+    }
+}
